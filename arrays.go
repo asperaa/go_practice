@@ -3,11 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	var color [2]string
-	color[0] = "Black"
-	color[1] = "Blue"
-	fmt.Println(color)
+	
+	// declare an array of strings
+	var animal [3]string
+	animal[0] = "cat"
+	animal[1] = "dog"
+	animal[2] = "elephant"
 
-	odd := [6]int{2, 3, 5, 7, 11, 13}
-	fmt.Println(odd)
+	fmt.Println(animal[1])
+
+	// declare an array of even numbers and initialise it
+	even := [5]int{2, 4, 6, 8, 10}
+	fmt.Println(even)
+
+
+
 }
